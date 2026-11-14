@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alehte.github.io/sitemap.xml
