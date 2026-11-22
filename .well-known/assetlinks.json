@@ -3,6 +3,9 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.alehte.allintogether",
-    "sha256_cert_fingerprints": ["05:E0:07:C7:8B:00:8E:69:CE:C4:6F:D4:75:15:CF:99:26:CD:DD:4F:82:97:E3:A6:35:BD:85:0B:BC:A8:DA:E4"]
+    "sha256_cert_fingerprints": [
+      "53:DF:7F:D1:D3:33:D5:9E:91:2B:5A:12:CC:C0:02:1F:FF:F0:68:48:DE:64:EF:A4:B6:C3:88:C4:86:58:A8:B3",
+      "05:E0:07:C7:8B:00:8E:69:CE:C4:6F:D4:75:15:CF:99:26:CD:DD:4F:82:97:E3:A6:35:BD:85:0B:BC:A8:DA:E4"
+    ]
   }
 }]
