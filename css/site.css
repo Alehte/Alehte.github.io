@@ -30,6 +30,7 @@
   --game-kacis: #5EE08F;
   --game-tempo: #F5C451;
   --game-sirala: #9FB4E8;
+  --game-ates: #FFD36B;
 
   /* yazı */
   --font-display: "Fredoka", system-ui, sans-serif;
@@ -168,6 +169,18 @@ a:hover { text-decoration-thickness: 2px; }
 .game--kacis { --game: var(--game-kacis); }
 .game--tempo { --game: var(--game-tempo); }
 .game--sirala { --game: var(--game-sirala); }
+.game--ates { --game: var(--game-ates); }
+
+/* tek sayıda kartta son kart iki sütunu kaplar; görsel yanda dar kalır, metin okunur genişlikte ortalanır */
+@media (min-width: 640px) {
+  .game:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    grid-template-columns: 120px minmax(0, var(--measure));
+    justify-content: center;
+    padding: var(--s5);
+  }
+  .game:last-child:nth-child(odd) img { order: 0; aspect-ratio: 540 / 1169; object-position: center; }
+}
 
 .game img {
   width: 100%; object-fit: cover;

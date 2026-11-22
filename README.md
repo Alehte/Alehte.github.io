@@ -76,6 +76,7 @@ Paketleme aşamasında:
   Oyunda bunlar değişirse `index.html` dosyasını da güncelle.
 - "İlk açılıştan sonra internetsiz" ifadesi, 14 Kasım 2026'da yayındaki oyunda test edildi:
   önbellek dolduktan sonra ağ kapatıldı, dört oyun da açıldı.
+  Beşinci oyun Karanlıkta Süzül 22 Kasım 2026'da siteye eklendi; internetsiz açılışı bu test kapsamında değildi, ayrıca denenmeli.
 - "Şu an reklam ve uygulama içi satın alma yok" ifadesi şimdiki zamanla yazıldı.
   Oyuna reklam ya da satın alma eklenirse bu cümleleri (Neden denemeye değer, SSS) ve gizlilik politikasını değiştir.
 - Ekran görüntüleri oyunun temiz bir başlangıç durumundan headless Chrome ile alındı (390×844, 540 px genişliğe küçültüldü).
